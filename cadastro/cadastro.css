@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #000;
+}
+/*Estilizando a imagem do fundo*/
+#fundo{
+    position: absolute;
+    opacity: 18%;
+    position: fixed;
+    height: 130%;
+}
+/*Centralizando todo o conteudo na tela*/
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: min-content;
+}
+/*estilizando a area do formulário*/
+.form{
+    border: dashed 2px #860404;
+    padding: 20px;
+}
+/*Estilizando o titulo da Akatsuki*/
+#title{
+    font-family: "Road Rage";
+    color: #ca0a07;
+    text-align: center;
+}
+/*estilizando as labels*/
+.lbl{
+    color: #ccbaba;
+}
+/*Estilizando os inputs e o button*/
+.ip{
+    display: block;
+    background: transparent;
+    border: dashed 1px #6a0201;
+    width: 19em;
+    height: 2em;
+    margin: 8px 0 11px 0;
+    color: #ccbaba;
+    font-size: 14pt;
+    text-indent: 2%;
+}
+#btnEntrar{
+    width: 100%;
+    height: 3.8em;
+    background-color: #ca0a07;
+    color: #fff;
+    margin: 2em 0 1.5em 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#btnEntrar:hover{
+    background-color: #a30b09;
+    color: #460908;
+}
+/*estilizando os links e o rodapé*/
+p{
+    color: #ccbaba;
+    text-decoration: none;
+    text-align: center;
+}
+a{
+    color: #ca0a07;
+    text-decoration: none;
+}
+a:hover{
+    color: #6a0201;
+    text-decoration: underline;
+}
+.rodape p{
+    margin-top: 3em;
+}
