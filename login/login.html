@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login - Akatsuki Wiki</title>
+</head>
+<body onload="tocar()">
+    <img src="../img/bg.jpg" alt="fundo" id="fundo">
+    <div class="container">
+        <div class="form">
+            <form action="">
+                <h1 id="title">Akatsuki</h1>
+
+                <label for="username" class="lbl">Username</label>
+                <input type="text" id="username" class="ip">
+
+                <label for="senha" class="lbl">Senha</label>
+                <input type="password" class="ip" id="senha">
+
+                <input type="button" value="ENTRAR" id="btnEntrar">
+                <p>Ainda não tem uma conta? <a href="#">Cadastrar</a></p>
+
+            </form>
+        </div>
+        <div>
+            <footer class="rodape">
+                <p>2022&copy - Todos direitos são convervados por:<br>
+                    <a href="github.com/afonsodasilva1/">Afonso da Silva vicente</a>
+                </p>
+            </footer>
+        </div>
+    </div>
+    <!-- Arquivo de som -->
+    <audio preload loop src="../sons/trilha-akatsuki.mp3" id='trilhasonora'></audio>
+    <!-- JS externo -->
+    <script src="login.js"></script>
+</body>
+</html>
